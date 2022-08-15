@@ -43,6 +43,8 @@ public class dec_hexa{
         obj.Decimal_Num();
         obj.convert_Decimal_To_Haxedecimal();
         int binary_ = obj.convert_Decimal_To_Binary();
-        obj.convert_Binary_To_Decimal(binary_);
+        if (binary_ >=2 && binary_<11){
+            obj.convert_Binary_To_Decimal(binary_);
+        }
     }
 }
